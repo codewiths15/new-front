@@ -22,7 +22,7 @@ const AddEdit = () => {
         if (!name || !email || !contact) {
             toast.error("Please provide the value in each field");
         } else {
-            axios.post("http://localhost:8080/api/post", {
+            axios.post("https://back-cab10.onrender.com", {
                 name,
                 email,
                 contact
